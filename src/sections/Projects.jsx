@@ -22,8 +22,8 @@ const Projects = () => {
         'Real-time interaction and fluid user interfaces.',
         'Robust user authentication and secure profile storage.'
       ],
-      github: 'https://github.com',
-      demo: 'https://demo.com'
+      github: 'https://github.com/yadavpanda2266/QuickAi',
+      demo: 'https://quick-ai-ashy-seven.vercel.app/'
     },
     {
       title: 'Car Rental Web Application',
@@ -36,8 +36,8 @@ const Projects = () => {
         'Sleek Admin Dashboard for managing fleet, bookings, and users.',
         'Clean RESTful API architecture for service communication.'
       ],
-      github: 'https://github.com',
-      demo: 'https://demo.com'
+      github: 'https://github.com/yadavpanda2266/car-rental',
+      demo: 'https://car-rental-bice-gamma.vercel.app/'
     }
   ];
 
