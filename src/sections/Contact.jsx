@@ -9,8 +9,8 @@ const Contact = () => {
   const [showToast, setShowToast] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const contactEmail = 'ajeet.developer@example.com';
-  const contactPhone = '+91 98765 43210';
+  const contactEmail = 'ajeetya0020@gmail.com';
+  const contactPhone = '+91 9508771783';
   const contactLocation = 'Bengaluru, Karnataka, India';
 
   const copyEmailToClipboard = () => {
@@ -166,9 +166,8 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleInputChange}
                   placeholder="John Doe"
-                  className={`w-full px-4 py-3 rounded-xl bg-black/30 border text-white text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 ${
-                    errors.name ? 'border-rose-500/50' : 'border-white/10'
-                  }`}
+                  className={`w-full px-4 py-3 rounded-xl bg-black/30 border text-white text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 ${errors.name ? 'border-rose-500/50' : 'border-white/10'
+                    }`}
                 />
                 {errors.name && (
                   <span className="text-xs text-rose-400 flex items-center space-x-1 mt-1">
@@ -190,9 +189,8 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   placeholder="johndoe@example.com"
-                  className={`w-full px-4 py-3 rounded-xl bg-black/30 border text-white text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 ${
-                    errors.email ? 'border-rose-500/50' : 'border-white/10'
-                  }`}
+                  className={`w-full px-4 py-3 rounded-xl bg-black/30 border text-white text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 ${errors.email ? 'border-rose-500/50' : 'border-white/10'
+                    }`}
                 />
                 {errors.email && (
                   <span className="text-xs text-rose-400 flex items-center space-x-1 mt-1">
@@ -214,9 +212,8 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleInputChange}
                   placeholder="Hi Ajeet, I'd love to connect..."
-                  className={`w-full px-4 py-3 rounded-xl bg-black/30 border text-white text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 resize-none ${
-                    errors.message ? 'border-rose-500/50' : 'border-white/10'
-                  }`}
+                  className={`w-full px-4 py-3 rounded-xl bg-black/30 border text-white text-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 transition-all duration-300 resize-none ${errors.message ? 'border-rose-500/50' : 'border-white/10'
+                    }`}
                 />
                 {errors.message && (
                   <span className="text-xs text-rose-400 flex items-center space-x-1 mt-1">
